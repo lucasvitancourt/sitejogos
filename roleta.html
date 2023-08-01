@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caça-Niquel</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="menu">
+      <ul>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="coinflip.html">Coin Flip</a></li>
+        <li><a href="roleta.html">Caça Niquel</a></li>
+        <li><a href="mines.html">Mines</a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="slot-machine">
+    <h1>Caça-Niquel</h1>
+    <div class="reels">
+      <div class="reel">
+        <div class="symbol">❤️</div>
+        <div class="symbol">💎</div>
+        <div class="symbol">🍀</div>
+      </div>
+    </div>
+    <div class="controls">
+      <label for="bet">Aposta:</label>
+      <input type="number" id="bet" min="1" max="1000">
+      <button class="spin-button" onclick="spin()">Girar</button>
+    </div>
+    <p class="balance">Saldo: <span id="balance">1000</span> moedas</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  
+  .slot-machine {
+    background-color: #222;
+    border: 10px solid #444;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .reels {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .reel {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #444;
+    border-radius: 5px;
+  }
+  
+  .symbol {
+    font-size: 50px;
+  }
+  
+  .controls {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .spin-button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  #bet {
+    width: 100px;
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid #444;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  #balance {
+    font-weight: bold;
+    font-size: 18px;
+    color: #4caf50;
+  }
+  
+.texbox {
+ border-radius: 8px;
+ padding: 5px 10px;
+ background-color: #4caf50;
+ border: 2px solid #444;
+}
+.texbox:focus{
+  outline:none;
+}
+
+.login {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.git {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}

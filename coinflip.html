@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coin Flip Game</title>
+  <link rel="stylesheet" type="text/css" href="coinflipcss.css">
+  <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="menu">
+          <ul>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="coinflip.html">Coin Flip</a></li>
+            <li><a href="roleta.html">Caça Niquel</a></li>
+            <li><a href="mines.html">Mines</a></li>
+            <li><a href="index.html">Home</a></li>
+          </ul>
+        </nav>
+      </header>
+    <div class="slot-machine">
+    <div class="container">
+        <div class="">
+          <h1>Coin Flip</h1>
+          <p class="balance">Saldo: <span id="balance">1000</span> moedas</p>
+        </div>
+        <div class="reel">
+            <div class="coin-container">
+                <div class="coin" id="coin"></div>
+              </div>
+        </div>
+
+            <label for="bet">Aposta:</label>
+            <input type="number" id="bet" min="1" max="1000">
+        <div class="buttons">
+          <button class="side blue" onclick="selectSide('blue')">Azul</button>
+          <button class="side red" onclick="selectSide('red')">Vermelho</button>
+        </div>
+        <br>
+        <button class="spin-button" onclick="play()">Jogar</button>
+      </div>
+      <div id="result"></div>
+    </div>
+
+    
+  
+  <script src="coinflipjs.js"></script>
+</body>
+</html>

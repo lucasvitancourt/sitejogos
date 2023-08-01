@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criar Conta</title>
+  <link rel="stylesheet" href="logincss.css">
+  <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="menu">
+      <ul>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="coinflip.html">Coin Flip</a></li>
+        <li><a href="roleta.html">Caça Niquel</a></li>
+        <li><a href="mines.html">Mines</a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="slot-machine">
+  <h1>Criar Conta</h1>
+  <form action="index.html" method="POST">
+    <label for="username">Nome de Usuário:</label>
+    <input type="text" id="username" name="username" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    <label for="password">Senha:</label>
+    <input type="password" id="password" name="password" required>
+    <br>
+    <button class="login" type="submit">Criar Conta</button>
+    <p>Já possui uma conta? <a href="login.html">Login</a>.</p>
+  </form>
+  </div>
+</body>
+</html>
